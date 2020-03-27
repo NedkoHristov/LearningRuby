@@ -15,3 +15,7 @@ state = gets.chomp.upcase
 # puts state
 
 puts first_name, last_name, city.upcase, state
+
+# Hmm, string interpolation seems useful
+
+puts "Welcome to string interpolation with #{first_name.upcase}. It's awesome"
