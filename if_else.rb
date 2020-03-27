@@ -30,8 +30,39 @@ puts
 
 hungry = false
 
-unless hungry
-  puts "I'm writing Ruby programs (or eat, whatever)"
-else
+if hungry
   puts "Time to eat (again)"
+else
+  puts "I'm writing Ruby programs (or eat, whatever)"
+end
+
+# ASSignment operator
+
+is_true = 2 != 3
+
+is_false = 2 == 3
+
+# freestyle if/else/elsif
+
+var_1 = "horse1"
+var_2 = "cow1"
+
+if var_1 == "horse"
+  print "This is a fucking horse, man"
+elsif var_2 == "cow"
+  print "It's a fuckin' cow, brotha!"
+else var_1 != "horse" || var_2 != "cow"
+print "what are you comparing, you idiot?"
+
+end
+
+# unless freestyle statement
+puts "I though for an animal, guess what's it! \n"
+
+animal = gets
+
+unless animal == "horse"
+  print "It is #{animal}!"
+else
+  print "It's not the animal I though about, bitch"
 end
