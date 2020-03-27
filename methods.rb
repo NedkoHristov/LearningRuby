@@ -20,3 +20,10 @@ string_to_shit_about = "SoMe StRiNg gOeS HeRe"
 puts string_to_shit_about
 puts string_to_shit_about.upcase
 puts string_to_shit_about.downcase
+
+# Super strange case with the multiple lines comment
+=begin
+super strange way
+to do a multiline
+comment
+=end
