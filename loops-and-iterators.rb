@@ -29,3 +29,28 @@ end
 for num in 1..15
   puts num
 end
+
+# Smarter loops with loop
+i = 20
+loop {
+  i -= 1
+  print "#{i} "
+  break if i <= 0
+  }
+
+# Using loop next to print all even number from 1 to 10
+puts "\n\nPrint even numbers from 1 to 10 incl."
+for i in 1..10
+  next if i % 2 == 0
+  puts "#{i} "
+end
+
+# Print all even numbers from 20 to 0
+i = 20
+loop do
+  i -= 1
+  next if i % 2 != 0
+  print "#{i} "
+  break if i <= 0
+end
+
