@@ -39,9 +39,8 @@ loop {
   }
 
 # Using loop next to print all even number from 1 to 10
-puts "\n\nPrint even numbers from 1 to 10 incl."
+puts "\n\nPrint odd numbers from 1 to 10 incl."
 for i in 1..10
-  next if i % 2 == 0
   puts "#{i} "
 end
 
@@ -76,3 +75,27 @@ end
 
 # .times method, bichachos
 10.times { puts "fuck, fuck, fuck!"}
+
+# Looping with while, bi4
+i = 1
+while i <= 50 do
+  print "#{i} "
+  i += 1
+end
+
+# Same shit as up, but with until
+
+j = 1
+until j == 51 do
+  print "#{j}"
+  j += 1
+end
+
+# Print in loop
+m = 0
+loop {
+  m += 1
+  print "Ruby!"
+  break if m == 30
+}
+
