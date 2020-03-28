@@ -15,3 +15,17 @@ until counter > 10
   # Add code to update 'counter' here!
   counter += 1
 end
+
+puts "", ""
+
+# Da for loop or another way to fry your CPU
+
+for num in 1...10
+  puts num
+end
+
+# Listen, son, usin 1...10 will exclude the final number, .. will include it. Okay? Good.
+
+for num in 1..15
+  puts num
+end
