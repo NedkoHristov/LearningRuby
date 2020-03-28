@@ -54,3 +54,25 @@ loop do
   break if i <= 0
 end
 
+# Array, hurray
+
+array = [1,2,3,4,5]
+
+array.each do |x|
+  x += 10
+  print "#{x} "
+end
+
+# Array print odd numbers multiplied by 2 from array
+
+odds = [1,3,5,7,9]
+
+odds.each do |x|
+  x *= 2
+  print "Array of odd numbers - #{odds} "
+  print "Array of odd numbers multiplied by 2 - #{x}
+"
+end
+
+# .times method, bichachos
+10.times { puts "fuck, fuck, fuck!"}
