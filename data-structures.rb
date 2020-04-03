@@ -45,3 +45,28 @@ array_1.each {|a| puts "#{a}"}
 # puts "\n"
 array_2.each {|b, c| puts "#{b}", "#{c}"}
 # family.each  { |x, y| puts "#{x}: #{y}" }
+
+# Playing around with if/else, .count method
+
+array_1 = ["arr_value1", "arr_value2", "arr_value3"]
+
+array_2 = {
+    "key1" => "value1",
+    "key2" => "value2",
+    "key3" => "value3"
+}
+
+array_1.each_with_index do |a,i|
+  puts "#{a}"
+  if i == array_1.count-1
+    puts "\nEnd reached.\n\nTotal count of elements in array_1 is #{array_1.count}\n"
+  end
+end
+
+array_2.each {|b, c| puts "#{b}: #{c}"}
+
+# Well obviously this is the way we print multiarrays:
+
+s = [["ham", "swiss"], ["turkey", "cheddar"], ["roast beef", "gruyere"]]
+
+s.each { |sub_array| sub_array.each { |element| puts element }}
