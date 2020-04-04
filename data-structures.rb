@@ -70,3 +70,16 @@ array_2.each {|b, c| puts "#{b}: #{c}"}
 s = [["ham", "swiss"], ["turkey", "cheddar"], ["roast beef", "gruyere"]]
 
 s.each { |sub_array| sub_array.each { |element| puts element }}
+
+# Print hashes for n-th time, (yawn)
+
+secret_identities = {
+    "The Batman" => "Bruce Wayne",
+    "Superman" => "Clark Kent",
+    "Wonder Woman" => "Diana Prince",
+    "Freakazoid" => "Dexter Douglas"
+}
+
+secret_identities.each do |x,y|
+  puts "#{x}: #{y}"
+end
