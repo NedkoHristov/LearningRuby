@@ -18,3 +18,27 @@ prime(9)
 prime(11)
 prime(51)
 prime(97)
+
+
+# SPLAT that
+def what_up(greeting, *friends)
+  friends.each { |friend| puts "#{greeting}, #{friend}!" }
+end
+
+what_up("What up", "Ian", "Zoe", "Zenas", "Eleanor")
+
+# And the winner of the most stupid lines of code goes to:
+
+def add(n,m)
+  return n + m
+end
+
+output = add(1,2)
+puts output
+
+# Bricks, no, no, blocks!
+1.times do
+  puts "I'm a code block!"
+end
+
+1.times { puts "As am I!" }
