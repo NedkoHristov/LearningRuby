@@ -66,3 +66,14 @@ capitalize("jane") # prints "Jane"
 # (It chooses to ignore the passed item, which is allowed.)
 [1, 2, 3, 4, 5].each { |i| puts i*5 }
 
+my_array = [3, 4, 8, 7, 1, 6, 5, 9, 2]
+
+puts my_array.sort
+
+# Sorting array
+
+fruits = ["orange", "apple", "banana", "pear", "grapes"]
+
+fruits.reverse do | firstFruit, secondFruit|
+  firstFruit <=> secondFruit
+end
