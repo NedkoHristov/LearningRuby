@@ -1,4 +1,7 @@
-# Of god here we are
+# Of god here we are - symbols
+# We can certainly use strings as Ruby hash keys; as we’ve seen,
+# there’s always more than one way to do something in Ruby. However,
+# the Rubyist’s approach would be to use symbols.
 
 
 creatures = { "weasels" => 0,
@@ -19,3 +22,14 @@ puts no_nil_hash["test"]
 # Ladies ang gents - symbols
 
 my_first_symbol = :stardonkey
+
+# Cast string to symbols
+strings = ["HTML", "CSS", "JavaScript", "Python", "Ruby"]
+
+# Add your code below!
+
+symbols = []
+strings.each do |s|
+  kotka = s.to_sym
+  symbols.push kotka
+end
