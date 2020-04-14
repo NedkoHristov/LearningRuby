@@ -44,3 +44,13 @@ movies = {
     :porn => "You know what I'll write here, did you?"
 
 }
+
+# Okay obviously this was an old syntax for ruby 1.9 ... This is the new shit:
+
+movies = {
+
+    horror: "Horror movie",
+    comedy: "Comedy movie",
+    porn: "You know what I'll write here, did you?"
+
+}
