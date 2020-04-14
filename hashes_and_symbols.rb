@@ -33,3 +33,14 @@ strings.each do |s|
   kotka = s.to_sym
   symbols.push kotka
 end
+
+
+# Define hash in hash rocket style
+
+movies = {
+
+    :horror => "Horror movie",
+    :comedy => "Comedy movie",
+    :porn => "You know what I'll write here, did you?"
+
+}
