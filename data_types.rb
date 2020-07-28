@@ -2,7 +2,7 @@
 
 my_num = 5
 my_boolean = true
-my_string = 'Haba haba, lear da Ruby'
+my_string = 'Haba haba, learn da Ruby'
 
 puts my_num
 puts my_boolean
